@@ -41,11 +41,25 @@
     margin: 0.5rem 0;
     cursor: pointer;
 }
+.nav-staff-btn {
+    font-size: 50%;
+    border: solid 4px var(--element-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
 
 .active-settings-BTN {
     background: var(--element-color);
 }
 
+.active-staff-BTN {
+    background: var(--element-color);
+}
 .container-settings {
     position: absolute;
     display: flex;

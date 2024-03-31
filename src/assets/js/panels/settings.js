@@ -46,6 +46,8 @@ class Settings {
         })
     }
 
+
+
     accounts() {
         document.querySelector('.accounts-list').addEventListener('click', async e => {
             let popupAccount = new popup()

@@ -31,10 +31,6 @@ class Home {
                         <div class="header-text">
                             <div class="title">Aucun news n'ai actuellement disponible.</div>
                         </div>
-                        <div class="date">
-                            <div class="day">1</div>
-                            <div class="month">Janvier</div>
-                        </div>
                     </div>
                     <div class="news-content">
                         <div class="bbWrapper">
@@ -61,7 +57,7 @@ class Home {
                         <div class="news-content">
                             <div class="bbWrapper">
                                 <p>${News.content.replace(/\n/g, '</br>')}</p>
-                                <p class="news-author">Auteur - <span>${News.author}</span></p>
+                                <p class="news-author">Auteur - <span>Sword Art OnMine</span></p>
                             </div>
                         </div>`
                     newsElement.appendChild(blockNews);
@@ -75,10 +71,6 @@ class Home {
                         <img class="server-status-icon" src="assets/images/icon.png">
                         <div class="header-text">
                             <div class="title">Error.</div>
-                        </div>
-                        <div class="date">
-                            <div class="day">1</div>
-                            <div class="month">Janvier</div>
                         </div>
                     </div>
                     <div class="news-content">
