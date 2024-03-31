@@ -9,7 +9,7 @@
         "email": "",
         "url": ""
     },
-    "url": "",
+    "url": "http://launcher.luuxis.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Zrtehhz/SAOM-Launcher.git"
+        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
     }
 }
