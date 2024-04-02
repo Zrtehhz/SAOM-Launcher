@@ -1,7 +1,7 @@
 {
     "name": "SAOM-Launcher",
     "preductname": "SAOM Launcher",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "Launcher Mincraft pour le serveur SAOM",
     "main": "src/app.js",
     "author": {
