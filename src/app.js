@@ -24,6 +24,7 @@ if (dev) {
     app.setPath('appData', appdata)
 }
 
+
 if (!app.requestSingleInstanceLock()) app.quit();
 else app.whenReady().then(() => {
     if (dev) return MainWindow.createWindow()
